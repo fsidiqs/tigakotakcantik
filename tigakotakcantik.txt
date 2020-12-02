@@ -1,0 +1,28 @@
+
+Naufal punya 3 kotak yang disusun dalam baris, kotak pertama berisi sejumlah A permen, kotak kedua berisi sejumlah B permen, dan kotak ketiga berisi C permen
+
+Naufal berpikir jika ketiga kotak ini akan terlihat bagus jika memiliki dua property berikut :
+1. setiap kotak minimal berisi 1 permen
+2. Jumlah permen dalam kotak harus bertambah secara sequential, jadi kotak pertama jumlah permennya harus lebih sedikit dibanding kotak kedua, dan kotak kedua jumlah permennya harus lebih sedikit dibanding kotak ketiga
+
+Satu-satunya cara naufal mengurangi isi permen adalah dengan memakan sejumlah permen
+
+Jika kamu diberikan 3 integer A, B, dan C. hitung dan beri balikan nilai yang paling terkecil yang paling mungkin jumlah permen yang harus Naufal makan agar kotak-kotak itu terlihat bagus. Kembalikan nilai -1 jika tidak memungkinkan
+
+Contoh : 
+
+1) 15, 40, 22 ~> 19
+Naufal cukup memakan sebanyak 19 permen dari kotak kedua sehingga jumlah permen menjadi (15, 21, 22)
+
+2) 5, 6, 6 ~> 2
+Naufal akan memakan 1 permen di kotak pertama dan 1 permen dikotak kedua sehingga jumlah permen menjadi (4, 5, 6)
+
+3) 6, 1, 3000 ~> -1
+Karena kotak kedua hanya berisi 1 permen maka kotak kedua harus berisi 0 jika ingin lebih kecil dari kotak kedua, sedangkan aturannya setiap kotak minimal berisi 1 permen
+
+Jadi buat program untuk menyelesaikan permasalahan diatas
+Kelas : TigaKotakCantik
+Fungsi : jumlahMakanMinimal
+Paramter : int, int, int
+Balikan : int 
+--
